@@ -160,8 +160,10 @@ Bundled corpus examples: WASDE outlooks, AMIS market monitors, FAO-style bulleti
 
 ## 👤 Author
 
-**SARAN** — 7376242AD294
-Department of Artificial Intelligence and Data Science, Bannari Amman Institute of Technology
+**SRINISHANTH S**
+**SARAN V**
+**SHIVAPRAKASH P**
+**SANJAY RATHINAM MARIMUTHU NITHYA**
 
 ---
 
