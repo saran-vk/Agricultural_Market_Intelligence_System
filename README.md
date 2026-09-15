@@ -15,3 +15,5 @@ uv run streamlit run app.py
 Add up to five public, searchable reports to `data/reports/`, or upload them in the sidebar. Source landing pages are recorded in `data/sources.json`. Rebuild the index, then ask a question.
 
 The app deliberately does not generate a summary when Ollama is unconfigured or unavailable; it exposes retrieved evidence instead. Scanned PDFs need OCR before they can be indexed.
+
+The embedding model is intentionally loaded from the local Hugging Face cache at runtime. Download `all-MiniLM-L6-v2` once during environment setup (with network access), then the app will not make network requests to answer questions.

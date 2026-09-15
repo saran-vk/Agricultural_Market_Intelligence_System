@@ -64,7 +64,8 @@ class ReportIndex:
         self.index: faiss.Index | None = None
     @property
     def model(self) -> SentenceTransformer:
-        if self._model is None: self._model = SentenceTransformer(self.embedding_model)
+        if self._model is None:
+            self._model = SentenceTransformer(self.embedding_model, local_files_only=True)
         return self._model
     def load(self) -> bool:
         if not (METADATA_FILE.exists() and FAISS_FILE.exists()): return False
