@@ -1,0 +1,20 @@
+[
+  {
+    "name": "USDA World Agricultural Supply and Demand Estimates",
+    "commodity": "Wheat, rice, cotton and global commodities",
+    "landing_url": "https://www.usda.gov/oce/commodity/wasde",
+    "notes": "Download a current searchable WASDE PDF from this official page and save it in data/reports/."
+  },
+  {
+    "name": "FAO Food Outlook",
+    "commodity": "Global food markets",
+    "landing_url": "https://www.fao.org/markets-and-trade/publications/food-outlook/en/",
+    "notes": "Download a searchable Food Outlook PDF from this official page and save it in data/reports/."
+  },
+  {
+    "name": "USDA Economic Research Service Outlook reports",
+    "commodity": "Wheat, rice and cotton",
+    "landing_url": "https://www.ers.usda.gov/topics/crops",
+    "notes": "Use commodity-specific outlook PDFs available from USDA ERS."
+  }
+]
